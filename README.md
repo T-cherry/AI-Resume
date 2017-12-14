@@ -2,8 +2,11 @@ Repository for use in the IBM AI-Resume project
 
 AI-Resume(Group 18)
 
-Project No.2
+Project No.2 
 
+What is this project about: 
+This project which is sponsored by IBM, is to create an application which combines several different aspects to allow an Employer to interact with resumes via text and speech. For this project we will be using Watson text-to-speech, speech-to-text services as well as: Unity, cinema4D, nodeRed.js and Watson personality insights to demonstrate how this could be done one resume as an example. 
+The main purpose of the interaction is to allow the employer to ask questions to an avatar shown onscreen via a chat dialog by either typing requests or using a microphone to verbally ask the avatar. The avatar will be powered by the Watson conversation service and therefore will be able to respond to queries and provide information about the resume and give guidance as to which sections to refer to. The drive behind this is to make the reviewing of resumes easier and more interesting for an employer and to allow a deeper understanding of an applicant.
 
 
 Team members:
@@ -24,17 +27,16 @@ Team members:
  
 Supervisor:
 
-  Gail Hopkins
-  
-  
+  Gail Hopkins. Email: gail.hopkins@nottingham.ac.uk
+
   
 Sponsor:
 
-  John McNamara ('IBM2' on the project page)
+  John McNamara. Email: jon_mcnam@uk.ibm.com
   
   
   
-Requirements:
+Software & Hardware Requirements:
 
   Watson Conversation
   
@@ -69,3 +71,4 @@ Trello:
 Documentation:
 
   https://drive.google.com/open?id=1QoVQ5H6wvPwHULI7lj8OYA91GuUb8UHbjMNWQpE_s0g
+
