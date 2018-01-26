@@ -1,3 +1,13 @@
+
+#chat-scroll-wrapper{
+	background: aliceblue;
+	height:540px;
+}
+
+#chat-flow {
+
+}
+
 #input-wrapper {
 
 }
@@ -18,10 +28,3 @@
 
 }
 
-#chat-scroll-wrapper{
-
-}
-
-#chat-flow {
-
-}

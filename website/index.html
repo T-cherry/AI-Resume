@@ -4,37 +4,61 @@
   <head>
     <meta charset="utf-8">
     <title>AI Resume</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/conversation.css">
-    <link rel="stylesheet" type="text/css" href="css/sidebar.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
   <body>
-    <div id="content-wrapper">
-      <button id="help">What can I ask?</button>
-      <div id="Avatar-wrapper">
-      </div>
-      <div id="chat-UI">
-        <div id="chat-scroll-wrapper">
-          <div id="chat-flow">
-          </div>
-        </div>
-        <div id="input-wrapper">
-          <div id="input-mic-holder">
-            <div id="input-mic">
-            </div>
-          </div>
-          <div id="input-text-holder">
-            <div id="input-text">
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="sidebar">
-        <p id="pre-bar">You can ask these about my CV:</p>
-        <ul id="suggestion-list"></ul>
-      </div>
-    </div>
+  	<div id="content-wrapper" class="container">
+  		<div id="name-wrapper" class="row">
+  			<p id="name-text">CV owner's name</p>
+  		</div>
+
+  		<div class="row">
+  			<div id="avatar-wrapper" class="col-md-4">
+  			</div>
+  			<div id="chat-UI" class="col-md-8">
+  				<div id="chat-scroll-wrapper" class="row">
+          	<div id="chat-flow">
+          	</div>
+        	</div>
+        	<div id="input-wrapper" class="row">
+	          <div id="input-mic-holder" class="col-md-1">
+	           	<div id="input-mic" class="row">
+	           		<button class="btn btn-default btn-block">
+	           			<img src="pic/microphone-black-shape.png">
+	           		</button>
+	           	</div>
+	          </div>
+	          <div id="input-text-holder" class="col-md-11">
+	            <div id="input-text" class="row">
+	            	<div class="dropup">
+								  <button class="btn btn-default btn-block dropdown-toggle btn-lg" type="button" data-toggle="dropdown">
+								    Please select what you want to ask
+								    <span class="caret"></span>
+								  </button>
+								  <ul class="dropdown-menu dropdown-menu-right" style="min-width:100%;">
+								    <li><a href="#">What is your skill?</a></li>
+								    <li><a href="#">What is your education background?</a></li>
+								    <li><a href="#">How can I contact you?</a></li>
+								    <!--TODO ADD MORE QUESTIONS-->
+								  </ul>
+								</div>
+	            </div>
+	         	</div>
+  				</div>
+  			</div>
+  		</div>
+		</div>
+
+		<!--
+			TODO FOOTER
+		<div>Icons made by <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+    -->
+
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
