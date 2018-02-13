@@ -1,64 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
-
-  <head>
-    <meta charset="utf-8">
-    <title>AI Resume</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" type="text/css" href="css/conversation.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  </head>
-
+<html>
+<head>
+  <title>AI Resume</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta property="og:title" content="AI Resume" />
+  <link rel="stylesheet" href="css/main.css">
+</head>
   <body>
-  	<div id="content-wrapper" class="container">
-  		<div id="name-wrapper" class="row">
-  			<p id="name-text">CV owner's name</p>
-  		</div>
+    <div id="contentParent" class="responsive-columns-wrapper">
+      <div id="avatar-wrapper">
+      </div>
+      <div id="chat-column-holder" class="responsive-column content-column">
+        <div class="chat-column">
+          <div id="scrollingChat"></div>
+          <label for="textInput" class="inputOutline">
+            <input id="textInput" class="input responsive-column"
+              placeholder="Type something" type="text"
+              onkeydown="ConversationPanel.inputKeyDown(event, this)">
+          </label>
+        </div>
+      </div>
+      <!--TODO add options-->
+    </div>
 
-  		<div class="row">
-  			<div id="avatar-wrapper" class="col-md-4">
-  			</div>
-  			<div id="chat-UI" class="col-md-8">
-  				<div id="chat-scroll-wrapper" class="row">
-          	<div id="chat-flow">
-          	</div>
-        	</div>
-        	<div id="input-wrapper" class="row">
-	          <div id="input-mic-holder" class="col-md-1">
-	           	<div id="input-mic" class="row">
-	           		<button class="btn btn-default btn-block">
-	           			<img src="pic/microphone-black-shape.png">
-	           		</button>
-	           	</div>
-	          </div>
-	          <div id="input-text-holder" class="col-md-11">
-	            <div id="input-text" class="row">
-	            	<div class="dropup">
-								  <button class="btn btn-default btn-block dropdown-toggle btn-lg" type="button" data-toggle="dropdown">
-								    Please select what you want to ask
-								    <span class="caret"></span>
-								  </button>
-								  <ul class="dropdown-menu dropdown-menu-right" style="min-width:100%;">
-								    <li><a href="#">What is your skill?</a></li>
-								    <li><a href="#">What is your education background?</a></li>
-								    <li><a href="#">How can I contact you?</a></li>
-								    <!--TODO ADD MORE QUESTIONS-->
-								  </ul>
-								</div>
-	            </div>
-	         	</div>
-  				</div>
-  			</div>
-  		</div>
-		</div>
-
-		<!--
-			TODO FOOTER
-		<div>Icons made by <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
-    -->
-
-    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/conversation.js"></script>
+    <script src="js/global.js"></script>
   </body>
 </html>
+<!--
+      TODO FOOTER AND MIC HOLDER
+    <div>Icons made by <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+-->
