@@ -1,0 +1,28 @@
+html {
+
+}
+
+body {
+
+}
+
+#content-wrapper {
+}
+
+#name-wrapper {
+	height: 30px;
+	background: silver;
+}
+
+#name-text {
+	text-align: center;
+	font-size: 20px;
+}
+
+#avatar-wrapper {
+	height: 580px;
+}
+
+#chat-UI {
+	height: 580px;
+}
