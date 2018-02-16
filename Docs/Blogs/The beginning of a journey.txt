@@ -1,0 +1,13 @@
+So let's take it right back to the start... It's September 2017 and we have been told we have to complete a Software Engineering group project this year. At the start everyone was pretty excited, I mean developing something working and interesting with your group of friends sounds pretty cool to me, however this thought was crushed by the fact we weren't able to pick our own group. At the start most people were pretty annoyed but then thinking about it in the long run I mean it's fair enough, its for our own benefit as when we enter the working world we will have to complete projects with many different people, even ones we don't know. So this is when our group, officially known as Group 18 (I know creative eh?) was formed.
+
+We pitched for 3 projects in total however really wanted to get the AI Resume one, which has a sponsor (John McNamara) from IBM as well as our own university advisor (Gail Hopkins). In the end we managed to get this project and we were ecstatic about it, all the hard work paid off! But then came the next big question... where do we start? How do we start? What do we do? Any Ideas? Everyone was in the same boat, meaning that no-one really had any clear ides of how to go about this so that is when we sat down on the 7th November and had our first meeting in which we discussed/created some of the following:
+<ul>
+	<li>User Stories</li>
+	<li>Highlighted most important parts of the project</li>
+	<li>The platform we would like to create this on</li>
+</ul>
+This allowed us to get a greater understanding of what needs to be done and which services we should use. We also decided what the next steps were going to be, one of which was to actually discuss the project in further detail with our sponsor as he would give us a lot more information that we can work with here.
+
+The start of this project was a challenge I’d say. This is mainly because we didn’t know much at all when it came to this type of project, we had general knowledge of the services used IBM, which we would be using extensively in this project, as well as some team members having experience with avatar design. We overcame this by reading up a lot about the services used and trying out the demos by IBM to get a general gist of how it all is put together.
+
+Well this is how it all started, read on to follow the journey we have embarked on, the challenges we face & how we overcome them as well the parts that go to plan straightaway and cause minor issues. :)
