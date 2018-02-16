@@ -82,6 +82,9 @@ Google Drive : https://drive.google.com/drive/folders/0B2xSQfk5N_cjTHZQQ0UzNW0zW
 
 Minutes of Meetings:   https://drive.google.com/open?id=1QoVQ5H6wvPwHULI7lj8OYA91GuUb8UHbjMNWQpE_s0g
 
+Blogs:
+All blogs can be found in website format at: airesumeproject.wordpress.com
+
 
 To note: 
 Use of watson conversation service and other IBM apllications use the IBM BlueMix/cloud platform for development. This has meant we can work together on the services without uploading to a shared repository such as github. Therefore the uploads that are present in the waston_conversation branch are the lastest incremental copies of our collabrative work. We were made aware by our supervisor that we should upload a version everynow and then and hence thsi is what we have started to do, therefore collabrative work may not be as clear on Github but this has been happening. 
