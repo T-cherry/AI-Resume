@@ -1,0 +1,13 @@
+Well this is the exciting part! After hours of planning out different components of the project (which you can read about in my last blog post) we were ready to delve in and start turning those thoughts and plans into reality. We decided to start of by designing a basic avatar so that we knew we had a basic model to base our project on. Luckily, one of our team members, Yi, has had experience with designing avatars prior to this project on cinema4d, which I must admit is very beneficial for the team as the rest of us had no experience in this sector whatsoever.
+
+Yi explained to us the difference between having a human-like figure and a 'Minecraft' like figure and told us that it will be a lot easier to implement animation to the human-like figure, which for us was <strong>good news</strong> as finally something that we planned could become a reality without major complications. Hallelujah!
+
+ 
+
+[gallery ids="39,40" type="rectangular"]
+
+This is the basic designs we came up with, as previously planned we decided to have a more casual looking one as well as a business-like one and the user would be able to choose which clothing option he prefers. I'm not going to delve much more into the avatar as at this point it was nowhere near complete nor did it have any animations added to it. I will however dedicate a blog post to this later on so you can have a read about the challenges we faced if you are interested in this sort of stuff. :)
+
+Other things that were started along the avatar development was the Watson conversation as well as the website, in which everything will be contained in at the end. One of the challenges we faced with the Watson conversation service straight from the start was figuring out what everything on it meant. The service has <em>intents, entities </em>and <em>dialogue</em> and obviously at the start we had no clue as to where to start and what to do. We overcame this by looking at the <strong>'Car Dashboard'</strong> sample project by IBM. This really helped us as it cleared up the uncertainties we had about the different components.
+
+Well I think that's it for this blog post, I didn't want to delve into too many details as I want to explain each part of the development to a much greater level and didn't want to repeat myself in these posts. I hope you remain with us on this journey and keep reading to find out how the rest of the development goes!
