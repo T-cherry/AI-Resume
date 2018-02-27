@@ -1,0 +1,19 @@
+Watson is IBM's chatbot service that was the core component of our project. The user, an employer, would interact with the chatbot in order to ask questions about the employee's resume, and it would respond with relevant information to each question.
+
+The first major problem I personally faced with Watson, was that no matter what we tried I couldn't get access to our group's workspace. We tried removing and reading me to the workspace, changing my permissions, creating an entirely new account, logging in from different computers (even other group member's) but nothing worked! In the end we settled for me using someone else's account during our group meetings to work on the Watson components.
+
+So what exactly is Watson? It looks simple on the surface, and with just a basic understanding of the core concepts (which are explained in tutorial videos supplied by IBM) you can definitely create something functional, however it is actually deceptively complex and powerful. Effectively, you combine intents (like topics of conversation), with entities (specific parameters within those topics), to create a dialogue tree of decisions that the chatbot will navigate to form a natural feeling conversation.
+
+We started by creating a series of bare-bones entities and intents and sticking them into the dialogue tree without really understanding how to create a complex bot. Whilst this was functional, it wasn't entirely deep. You would effectively ask the bot one question, it would give you response, and then loop back to the beginning of the tree. Whilst you could gather all the information about the employee's resume that you needed with this, it wasn't very interactive, and didn't feel like a natural conversation.
+
+[caption id="attachment_46" align="alignnone" width="1833"]<img class="alignnone size-full wp-image-46" src="https://airesumeproject.files.wordpress.com/2018/02/screen-shot-2018-02-24-at-17-15-50.png" alt="Screen Shot 2018-02-24 at 17.15.50" width="1833" height="784" /> Screenshot from our Watson Conversation Service displaying part of our entities[/caption]
+
+[caption id="attachment_44" align="alignnone" width="1835"]<img class="alignnone size-full wp-image-44" src="https://airesumeproject.files.wordpress.com/2018/02/screen-shot-2018-02-24-at-17-15-02.png" alt="Screen Shot 2018-02-24 at 17.15.02" width="1835" height="959" /> Screenshot from our Watson Conversation Service displaying part of our intents[/caption]
+
+To create something that felt like a real conversation, we need to dig deeper. We looked at other examples of more complex chatbots, most specifically the "car dashboard" one that is automatically supplied when you create your workspace. By looking at the contents its dialogue tree, we were able to learn how to create more a complex and interactive bot and believe me, it took all of us a while for it to click!
+
+After I spent a good hour experimenting with different things, I was able to assemble something that allowed the user to ask further questions about the bot's responses. The rest of my group was able to replicate this for all the other topics outside of our meetings (where I wouldn't be able to work on it due to the reasons I mentioned earlier).
+
+[caption id="attachment_45" align="aligncenter" width="754"]<img class=" size-full wp-image-45 aligncenter" src="https://airesumeproject.files.wordpress.com/2018/02/screen-shot-2018-02-24-at-17-15-31.png" alt="Screen Shot 2018-02-24 at 17.15.31" width="754" height="911" /> Screenshot from our Watson Conversation Service displaying part of our dialog system[/caption]
+
+This is how we formed the current version of the chatbot that we have. Whilst there is some room for expansion (mostly adding more intents and entities that the bot can understand), we are happy with how it has turned out. The next step is to integrate it into the web application...
