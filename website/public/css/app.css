@@ -8,6 +8,7 @@ body {
   font-family: Helvetica Neue for IBM, Helvetica Neue, Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 div {
@@ -216,6 +217,28 @@ input:-moz-placeholder {
 
 #avatar-holder {
   background-color: silver;
+}
+
+#icons-holder {
+  height: 100%;
+}
+
+#display-resume-img {
+  width: 50%;
+  height: auto;
+}
+
+#display-resume-icon {
+  margin-top: 100%;
+}
+
+#twitter-analyse-icon {
+  margin-top: 120%;
+}
+
+.icon-img {
+  width: 50%;
+  height: auto;
 }
 
 html{
