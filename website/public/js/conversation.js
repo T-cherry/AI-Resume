@@ -1,3 +1,8 @@
+
+/*
+ * Modifications copyright (C) 2018 University of Nottingham, Computer Science, Group 18
+ */
+
 // The ConversationPanel module is designed to handle
 // all display and behaviors of the conversation column of the app.
 /* eslint no-unused-vars: "off" */

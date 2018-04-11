@@ -1,4 +1,8 @@
 
+/*
+ * Modifications copyright (C) 2018 University of Nottingham, Computer Science, Group 18
+ */
+
 /* global ConversationPanel: true, PayloadPanel: true*/
 /* eslint no-unused-vars: "off" */
 
