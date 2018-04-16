@@ -183,7 +183,7 @@ input#user-input:-moz-placeholder {
 #chat-flow {
     text-align: left;
     width: calc(100% + 20px);
-    max-height:  15.625rem;
+    max-height:  40rem;
     overflow: hidden;
 }
 
