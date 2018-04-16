@@ -1,0 +1,195 @@
+/*
+ * Copyright © 2016 I.B.M. All rights reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the “License”);
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an “AS IS” BASIS,Li
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#footer{
+    background-color: lime;
+    bottom: 0;
+    height: 100px;
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+#avatar-holder {
+  position: relative;
+}
+.fit { /* set relative picture size */
+    max-width: 100%;
+    max-height: 100%;
+  }
+.center {
+    display: block;
+    margin: auto;
+  }
+.parent{
+    position:absolute;
+    z-index:0;
+}
+
+.inner{
+    position:absolute;
+    z-index:1;
+    bottom:0px;
+    right:0;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#dark-overlay {
+    background: black;
+    opacity: 0.62;
+    z-index: 40;
+}
+
+#clear-overlay {
+    background: transparent;
+    z-index: 60;
+}
+
+.between-overlays {
+    z-index: 50 !important;
+}
+
+.hide {
+    display: none !important;
+}
+
+.fade {
+    transition: opacity 3s;
+    -moz-transition: opacity 3s; /* Firefox */
+    -webkit-transition: opacity 3s; /* Safari and Chrome */
+    -o-transition: opacity 3s; /* Opera */
+}
+
+.fade-out {
+    opacity: 0;
+}
+
+.close {
+    padding: 0.625rem;
+    cursor: pointer;
+    width: 2rem;
+    outline: none
+}
+
+.close:hover {
+    animation: hover 0.2s 1 ease-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hover{
+    100% {
+        transform: scale(1.1);
+    }
+}
+.responsive-columns-wrapper {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    -ms-display: flex;
+    -ms-flex-direction: row;
+}
+
+.responsive-column {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    overflow: auto;
+}
+
+.pre-bar::before {
+    border-left: solid 0.25rem #9E4CE6;
+    border-radius: 0.25rem;
+    content: "";
+    margin-right: 0.4375rem;
+    margin-left: -0.625rem;
+}
+
+#svg_wrapper {
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    min-width: 325px;
+    max-width: 1100px;
+}
+
+#svg_size {
+    font-size: 0;
+    position: relative;
+    height: 0;
+    width: 100%;
+    padding: 0;
+    padding-bottom: calc( 100% * 704 / 1024 );
+}
+
+#svg_canvas{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.nav_active {
+    animation: nav 0.8s infinite linear;
+}
+
+@keyframes nav {
+    100% {
+        fill: green;
+    }
+}
+
+#icons-holder {
+  position: absolute;
+  bottom:  15rem;
+  margin-left: 90%;
+}
+
+#display-resume-img {
+  width: 50%;
+  height: auto;
+}
+
+#display-resume-icon {
+  margin-top: 100%;
+}
+
+#twitter-analyse-icon {
+  margin-top: 120%;
+}
+
+.icon-img {
+  width: 50%;
+  height: auto;
+}
