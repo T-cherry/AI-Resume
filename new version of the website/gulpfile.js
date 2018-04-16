@@ -41,10 +41,20 @@ gulp.task('build-fonts', () =>
     .pipe(gulp.dest(appProd + 'fonts'))
 );
 
-gulp.task('build-html', [ 'build-img', 'build-css', 'build-ibm'], () => {
+gulp.task('build-pdf', () =>
+  gulp.src([appDev + 'pdf/**'])
+    .pipe(gulp.dest(appProd + 'pdf'))
+);
+
+gulp.task('build-pdfjs', () =>
+  gulp.src([appDev + 'js/pdfobject.min.js'])
+    .pipe(gulp.dest(appProd + 'js'))
+);
+
+gulp.task('build-html', [ 'build-img', 'build-css', 'build-ibm' , 'build-pdf', 'build-pdfjs'], () => {
   const assets = $.useref({ 'searchPath': ['ui/**/*.*', 'node_modules'] });
 
-  return gulp.src(appDev + 'index.html')
+  return gulp.src(appDev + '*.html')
     .pipe(assets) //node_modules dir is in the current dir, search there for dependencies!
     .pipe($.sourcemaps.init({'identityMap': true, 'debug': true}))
     .pipe($.useref())
@@ -67,6 +77,8 @@ gulp.task('watch', ['build-html'], () => {
   gulp.watch(appDev + 'css/*.css', ['build-html']);
   gulp.watch(appDev + '**/*.html', ['build-html']);
   gulp.watch(appDev + 'images/**/*', ['build-html']);
+  gulp.watch(appDev + 'pdf/*.pdf', ['build-html']);
+  gulp.watch(appDev + 'js/pdfobject.min.js', ['build-html']);
 });
 
 gulp.task('server:start', () =>
