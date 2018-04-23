@@ -33,6 +33,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="ct" content="vPWQz9kc-2sDXDdB6m_K5RLm_mwStA0c3cyo">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+      <script type="text/javascript">
+        var n=0;
+   function changeImage(){
+     if ( n == 0 ) {
+    document.getElementById('avatar').src='bg.gif';
+    n = 1;
+  }
+  else if ( n == 1 ) {
+    document.getElementById('avatar').src='outdoorBG.gif';
+    n = 2;
+  }
+  else {
+    document.getElementById('avatar').src='bg.gif';
+    n = 0;
+  }
+    
+   }
+  </script>
 </head>
 
 <body>
@@ -42,9 +60,9 @@
         <button id="help" class="tooltip-dialog-btn" onclick="Sidebar.toggle()">What can I ask?</button>
        
             <div id="avatar-holder" class="parent">
-      <img src="bg.gif" width="1200" height="700">
+      <img src="outdoorBG.gif" id= "avatar" width="1200" height="700"/>
           <div class="inner">
-      <img src="avatar-default.gif"  width="1000" height="700">
+      <img src="avatar-default.gif"   width="1000" height="700"/>
     </div>
 </div>
         <div class="chatUi">
@@ -80,6 +98,18 @@
                     download at https://www.iconfinder.com/icons/834708/twitter_icon#size=128-->
             </a>
         </div>
+         <div id="twitter-analyse-icon">
+            <button onclick="changeImage()">
+                <img class = "icon-img" src="images/favicon.ico" >
+                    </button>
+                            <button onclick="changeImage()">
+                <img class = "icon-img" src="images/favicon.ico" >
+                    </button>
+                <!--Icon created by Litvin, free for commercial use, 
+                    download at https://www.iconfinder.com/icons/834708/twitter_icon#size=128-->
+        </div>
+
+
     </div>
     </div>
 
