@@ -37,15 +37,15 @@
         var n=0;
    function changeImage(){
      if ( n == 0 ) {
-    document.getElementById('avatar').src='bg.gif';
+    document.getElementById('avatar').src='images/bg.gif';
     n = 1;
   }
   else if ( n == 1 ) {
-    document.getElementById('avatar').src='outdoorBG.gif';
+    document.getElementById('avatar').src='images/outdoorBG.gif';
     n = 2;
   }
   else {
-    document.getElementById('avatar').src='bg.gif';
+    document.getElementById('avatar').src='images/bg.gif';
     n = 0;
   }
     
@@ -60,9 +60,9 @@
         <button id="help" class="tooltip-dialog-btn" onclick="Sidebar.toggle()">What can I ask?</button>
        
             <div id="avatar-holder" class="parent">
-      <img src="outdoorBG.gif" id= "avatar" width="1200" height="700"/>
+      <img src="images/outdoorBG.gif" id= "avatar" width="1200" height="700"/>
           <div class="inner">
-      <img src="avatar-default.gif"   width="1000" height="700"/>
+      <img src="images/avatar-default.gif"   width="1000" height="700"/>
     </div>
 </div>
         <div class="chatUi">
