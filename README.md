@@ -77,6 +77,10 @@ Trello:
 
 Documentation:
 
+User / Installation guide : 
+
+Can be found in the /Docs folder of the repository folder. 
+
 Google Drive : https://drive.google.com/drive/folders/0B2xSQfk5N_cjTHZQQ0UzNW0zWUU?ths=true
 
 
