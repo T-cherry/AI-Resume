@@ -100,6 +100,11 @@ var Common = (function() {
     return element;
   }
 
+
+function changeImage() {
+  document.getElementById('avatar').src='bg.gif';
+
+}
   // Wait until a condition is true until running a function
   // (poll based on interval in ms)
   function wait(conditionFunction, execFunction, interval) {
