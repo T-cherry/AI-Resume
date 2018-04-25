@@ -1,0 +1,19 @@
+Now this is the exciting part! At this point everything else that needed to be integrated in the website has been done, therefore the thing that is left to do is put our avatar plans into action!
+
+One member of our team (Yi) decided to take this role upon himself as he has had previous experience in design and animation therefore we all agreed that he would be the best person for this role, <strong>obviously </strong>if he needed anything from us we would be there to try and look into it and help him figure out any issues as this is a <strong>group effort!</strong>
+
+Now let's get onto how the avatar was actually made... but before that, do you recall our initial avatar design from a previous blog <em>(The time came to turn our thoughts into reality)?</em> If not I suggest you go back and just have a glance so that you can see the changes made, as there were some <strong>big </strong>ones. Now I will actually tell you about the production process. First of all the software, our avatar was made in Adobe After Effects. The reason behind us choosing to use this software is that Yi already had substantial knowledge on how to use it and in addition to that, it lets your create professional looking 2D models. Our initial idea was that we were going to have a 3D avatar to represent the user, however with time we realised that it would be a lot more difficult to get it to look smooth and just generally good, therefore we had a change of plan and decided to create a 2D avatar, which was a <strong>much better </strong>decision.
+
+In the end, we created 2 avatars, the main one includes animation <em>(There will be a separate blog for animation!)</em> and the second one is just used as an example of an avatar choice for our demo. You can see the main design <strong>below:</strong>
+
+[caption id="attachment_55" align="aligncenter" width="434"]<img class=" size-full wp-image-55 aligncenter" src="https://airesumeproject.files.wordpress.com/2018/04/avatar-default-e1524664591228.png" alt="Main Avatar" width="434" height="589" /> Main Animated Avatar[/caption]
+
+Alongside these avatars, we also created 2 varying backgrounds that the user can choose between on the site, this was all once again done in the same software as mentioned before, and also includes animation. You can see both of the design <strong>below:</strong>
+
+[caption id="attachment_56" align="alignnone" width="1920"]<img class="alignnone size-full wp-image-56" src="https://airesumeproject.files.wordpress.com/2018/04/bg-e1524665498945.png" alt="bg" width="1920" height="1080" /> Office Background[/caption]
+
+[caption id="attachment_57" align="alignnone" width="1920"]<img class="alignnone size-full wp-image-57" src="https://airesumeproject.files.wordpress.com/2018/04/outdoorbg-e1524665512987.png" alt="outdoorbg.gif" width="1920" height="1080" /> Casual Background[/caption]
+
+Now I know what you're thinking, pretty cool right?! To think we have come all this way from our initial designs... we are very proud of the progress made on this. Throughout the process of creating the background and avatar <strong>(not including animation) </strong>there were no major issues encountered. Like I've mentioned, since Yi had substantial knowledge on this software prior to the project, he didn't have many issues when creating the designs, I wish I could say the same about animation... this will be discussed in the next blog.
+
+I hope you liked seeing the progress we have made over the course of this project and I hope these blogs give you some more depth into our personal experience. Keep reading on to see the final product!
