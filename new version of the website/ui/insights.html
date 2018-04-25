@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1">
+    <title>Personality Insights Sunburst Chart</title>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.14/d3.min.js"></script>
+    <script src="https://rawgit.com/ibm-silvergate/personality-sunburst-chart/master/bin/personality-sunburst-chart.standalone.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+
+    <style>
+      #profile pre {
+        max-height: 400px;
+      }
+      #textSummary {
+        font-size: 1.2em;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="container">
+      <h1>Personality Insights Sunburst Chart</h1>
+      </div>
+
+    <script>
+      $.getJSON('new version of website/twitter_json/john_tweets.json', '', function ( profile ) {
+        $('#profile').append('<pre>' + JSON.stringify(profile, null, 2) + '</pre>');
+        var chart = new PersonalitySunburstChart('sunburstChart');
+        chart.show(profile, 'new version of website/twitter_json/profile_photo.jpg');
+      });
+    </script>
+
+  </body>
+</html>
