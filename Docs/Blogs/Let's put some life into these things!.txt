@@ -1,0 +1,23 @@
+You may be wondering what I mean by putting life into things.. however if you have been following you may know that this blog post is about <strong>animation! </strong>Let's get straight into it...
+
+We decided to add simple animation to the avatar. We didn't want to go overboard with the complexity because as we all know; <strong>simple is more effective. </strong>This therefore meant that we have included basic hand movements and blinking. This gives the avatar more realistic features and it feels like you are actually talking to someone when interacting with it. All of the animation was created on Adobe After Effects. Like I've mentioned in the avatar blog post, one of our team members (Yi), has substantial knowledge on it and is therefore pretty confident in using it. All sounds well and good however it's not as easy as it seems...
+
+Whilst trying to insert the animation, Yi had issues with actually building the interaction, which ended up being built the wrong way at first. It took us a lot of different approaches to figure out how to get it to work and a lot of time was spent on it, however in the end we managed to overcome these difficulties and get the basic animation to work. The avatar was not the only thing to be animated, we also managed to insert basic animation onto both of the background designs we have.
+
+The reason behind using Adobe After Effects for this task, is that it is a lot easier to implement smooth and professional motion graphics in 2D. Our initial plan was to have a 3D avatar with animation, however as we progressed with the project we discarded that idea and stuck with a 2D design, which even though it was still complicated, made the animation <strong>easier. </strong>You can view the avatar animations <strong>below:</strong>
+
+ 
+
+[caption id="attachment_60" align="alignnone" width="1050"]<strong><img class="alignnone size-full wp-image-60" src="https://airesumeproject.files.wordpress.com/2018/04/avatar-default1.gif" alt="avatar-default" width="1050" height="590" /></strong> <b>Avatar Animation</b>[/caption]
+
+<em>I'm sorry about the avatar being placed on the right hand side, however that's the original gif therefore if I edit it, the animation will be removed. :(</em>
+
+We designed 2 background options that you can choose between on the site. Both of these (with animation) are shown <strong>below:</strong>
+
+[caption id="attachment_61" align="alignnone" width="1920"]<img class="alignnone size-full wp-image-61" src="https://airesumeproject.files.wordpress.com/2018/04/bg1.gif" alt="bg" width="1920" height="1080" /> Business Background[/caption]
+
+[caption id="attachment_62" align="alignnone" width="1920"]<img class="alignnone size-full wp-image-62" src="https://airesumeproject.files.wordpress.com/2018/04/outdoorbg1.gif" alt="outdoorBG" width="1920" height="1080" /> Casual Background[/caption]
+
+<strong></strong>This is pretty much it for the design and animation aspects of the avatar and backdrops. We are extremely happy with the end results and we are glad that we decided to take a 2D approach rather than waste time on trying to figure it out in 3D when there's still many other things that need to be polished up!
+
+The next blog post is a short one about something that we didn't think we would be able to implement, however, we managed to do it! Keep reading to find out what it is...
