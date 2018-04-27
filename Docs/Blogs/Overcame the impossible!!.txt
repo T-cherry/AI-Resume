@@ -1,0 +1,13 @@
+Now this is something pretty cool that was part of our original requirements, however we were then told we weren't be able to implement it into our project as it doesn't work with many microphones and it can be faulty. Can you guess what it is? You probably have an idea but I'll tell you anyway, I'm talking about the <strong>speech to text </strong>function!!
+
+We were told that due to issues with credentials we would not be able to include speech to text in our project. Also in addition to this, as Watson is still being developed in this sector it is tough to get the speech to text to work well with many microphones, however in our project we managed to get it to work well with pretty much <strong>any</strong> microphone. Obviously it cannot understand everything clearly, unless you have a <strong>high tech </strong>microphone, however it understands most things correctly, therefore we consider this to be a success!
+
+Alongside this, we also managed to implement a <strong>text to speech </strong>function, which gets the avatar to read out its own response. However we have an issue with this since the avatar cannot read any output that includes brackets therefore we will still need to look into that and try polish it up as much as possible.
+
+The overall webpage with most of the features looks like this:
+
+[caption id="attachment_66" align="alignnone" width="1712"]<img class="alignnone size-full wp-image-66" src="https://airesumeproject.files.wordpress.com/2018/04/screen-shot-2018-04-25-at-16-25-54-e1524670557216.png" alt="Overall" width="1712" height="1218" /> Main Page[/caption]
+
+Above on the image you can see there is a microphone button, when highlighted in green it shows it is listening and when it's not it is displayed in grey. In addition you also have the ability to switch off the sound if you do not wish to hear the output of the avatar.
+
+This has just been a little update blog about an extra feature that we managed to include! I will be writing a <strong>final blog</strong> on the <strong>entirety</strong> of our project, in which I will display the different parts of our project very clearly and sum these set of blogs up. We are so close to the end now... :(

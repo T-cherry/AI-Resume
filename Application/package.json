@@ -1,5 +1,5 @@
 {
-  "name": "watson-assistant-car-dashboard",
+  "name": "AI-ResumeApplication",
   "version": "0.1.0",
   "main": "server.js",
   "scripts": {
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/watson-developer-cloud/car-dashboard.git"
+    "url": "https://github.com/T-cherry/AI-Resume"
   },
   "license": "Apache-2.0",
   "author": "IBM Corp.",
