@@ -42,6 +42,7 @@
     <script type="text/javascript" src="https://unpkg.com/personality-sunburst-chart@2.0.4/dist/index.js"></script>
     <script src="https://d3js.org/d3-color.v1.min.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="twitter_json/personality-sunburst-chart.standalone.js"></script> <!-- This is the file in the /dist folder. -->
 
     <style>
       #profile pre {
@@ -59,13 +60,23 @@
     </div>
 <div>         This is the sunbirst chart created from performing a personality insight into John's twitter feed.</div>
 <div>         It uses the IBM insights service to prcess tweets and provide a suggestion into the personality of the person.</div>
+    <br/>
     <div id='sunburstChart'></div>
     <div id='image'> 
       
     <!--<img style="border-style:solid; border-color: black; border-width: 2px;" hspace="20" src="images/SunBurstExample.jpg" alt="Sunburst Represenattion of Insights">-->
     
-       <!-- <img style="border-style:solid; border-color: black; border-width: 2px;" hspace="20" src="twitter_json/profile_photo.jpg" alt="Sunburst Represenattion of Insights">-->
 </div>
+<!--<div id="profile" min-height=200px ; > </div>-->
+
+<script>
+      $.getJSON('twitter_json/JohnPersonality.json', '', function ( profile ) {
+        $('#profile').append('<pre>' + JSON.stringify(profile, null, 2) + '</pre>');
+        var chart = new PersonalitySunburstChart({selector:'#sunburstChart', version: 'v3'});
+        chart.show(profile, 'twitter_json/profile_photo.jpg');
+      });
+    </script>
+   <!--     
 
     <script>
     var chart = new PersonalitySunburstChart({
@@ -76,7 +87,6 @@
       </script>
     </div>
       
-   <!--     
     <script>
       $.getJSON('twitter_json/JohnPersonality.json', '', function ( profile ) {
         $('#profile').append('<pre>' + JSON.stringify(profile, null, 2) + '</pre>');
