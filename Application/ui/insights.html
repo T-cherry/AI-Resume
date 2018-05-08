@@ -52,14 +52,19 @@
       }
     </style>
   </head>
-  <body>
+  <body style="background-color: lightblue;>
 
     <div class="container">
       <h1>Personality Insights Sunburst Chart</h1>
     </div>
-
-    <div id='sunburstChart'>
+<div>         This is the sunbirst chart created from performing a personality insight into John's twitter feed.</div>
+<div>         It uses the IBM insights service to prcess tweets and provide a suggestion into the personality of the person.</div>
+    <div id='sunburstChart'></div>
+    <div id='image'> 
       
+    <img style="border-style:solid; border-color: black; border-width: 2px;" hspace="20" src="images/SunBurstExample.jpg" alt="Sunburst Represenattion of Insights">
+    </div>
+<!--
     <script>
     var chart = new PersonalitySunburstChart({
     'selector':'#sunburstChart', 'version': 'v2'
@@ -77,6 +82,6 @@
         chart.show(profile, 'profile_photo.jpg');
       });
     </script>
-
+-->
   </body>
 </html>
