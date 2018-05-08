@@ -62,9 +62,11 @@
     <div id='sunburstChart'></div>
     <div id='image'> 
       
-    <img style="border-style:solid; border-color: black; border-width: 2px;" hspace="20" src="images/SunBurstExample.jpg" alt="Sunburst Represenattion of Insights">
-    </div>
-<!--
+    <!--<img style="border-style:solid; border-color: black; border-width: 2px;" hspace="20" src="images/SunBurstExample.jpg" alt="Sunburst Represenattion of Insights">-->
+    
+       <!-- <img style="border-style:solid; border-color: black; border-width: 2px;" hspace="20" src="twitter_json/profile_photo.jpg" alt="Sunburst Represenattion of Insights">-->
+</div>
+
     <script>
     var chart = new PersonalitySunburstChart({
     'selector':'#sunburstChart', 'version': 'v2'
@@ -74,7 +76,7 @@
       </script>
     </div>
       
-        
+   <!--     
     <script>
       $.getJSON('twitter_json/JohnPersonality.json', '', function ( profile ) {
         $('#profile').append('<pre>' + JSON.stringify(profile, null, 2) + '</pre>');
