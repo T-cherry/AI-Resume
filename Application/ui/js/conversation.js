@@ -230,7 +230,7 @@ var Conversation = (function() {
         'classNames': (isUser
           ? [authorTypes.user + '-message']
           : [authorTypes.watson + '-message', classes.preBar]),
-        'html': (isUser ? '<img src=\'/images/head.svg\' />' + dataObj.text : dataObj.text)
+        'html': (isUser ? '<img src=\'/images/head.svg\' />' + dataObj.text : dataObj.text + '<img src=\'/images/head.svg\' />')
       }]
     };
 
