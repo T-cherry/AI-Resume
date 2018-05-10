@@ -243,8 +243,13 @@ input#user-input:-moz-placeholder {
     right: 0.4875rem;
     border-width: 0.625rem 0 0.625rem 0.75rem;
     border-style: solid;
+<<<<<<< HEAD
     border-color: transparent #9E4CE6 transparent transparent ;
     border-left-color: #9E4CE6;
+=======
+    border-color:   #9E4CE6 ;
+    border-left-color: white;
+>>>>>>> 822a769bcc0f2680f25a6dcb3357a58e3c944080
 }
 
 .watson img {
