@@ -88,6 +88,7 @@
     
    }
   </script>
+
 </head>
 
 <body>
@@ -151,7 +152,22 @@
     </div>
     </div>
 
-
+ <script >
+var input = document.getElementById("user-input");
+input.addEventListener("keyup", function(event) {
+    event.preventDefault();
+    if (event.keyCode === 13) {
+      if(Math.floor(Math.random() * 3) ==0  )
+        document.getElementById('avatar').src='images/Avatar1.gif';
+      else if(Math.floor(Math.random() * 3)==1  )
+        document.getElementById('avatar').src='images/Avatar-node.gif';
+      else if(Math.floor(Math.random() * 3)==2 )
+        document.getElementById('avatar').src='images/Avatar-wave.gif';
+      else
+        document.getElementById('avatar').src='images/Avatar-talk.gif';
+    }
+});
+</script>
     <!-- build:js vendor.min.js -->
     <script src="js/libs/snap.svg.js"></script>
     <script src="./../node_modules/whatwg-fetch/fetch.js"></script>
