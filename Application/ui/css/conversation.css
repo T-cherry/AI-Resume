@@ -196,7 +196,6 @@ input#user-input:-moz-placeholder {
     overflow: visible;
     position: relative;
     margin-left: 5.3125rem;
-    margin-right: 4rem;
     max-width:  20rem;
 }
 
@@ -238,18 +237,5 @@ input#user-input:-moz-placeholder {
 }
 
 .watson .pre-bar::before {
-    content: "";
-    position: absolute;
-    right: 0.4875rem;
-    border-width: 0.625rem 0 0.625rem 0.75rem;
-    border-style: solid;
-    border-color: transparent #9E4CE6 transparent transparent ;
-    border-left-color: #9E4CE6;
-}
-
-.watson img {
-    height: 3.75rem ;
-    position: absolute;
-    right: -3.1rem;
-    top: 0.3125rem;
+    border-left-color: white;
 }
