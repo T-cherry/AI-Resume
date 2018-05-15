@@ -51,7 +51,7 @@ gulp.task('build-pdfjs', () =>
     .pipe(gulp.dest(appProd + 'js'))
 );
 
-gulp.task('build-html', [ 'build-img', 'build-css', 'build-ibm' , 'build-pdf', 'build-pdfjs'], () => {
+gulp.task('build-html', [ 'build-img', 'build-twitter','build-css', 'build-ibm' , 'build-pdf', 'build-pdfjs'], () => {
   const assets = $.useref({ 'searchPath': ['ui/**/*.*', 'node_modules'] });
 
   return gulp.src(appDev + '*.html')
@@ -67,6 +67,11 @@ gulp.task('build-img', () =>
     .pipe(gulp.dest(appProd + 'images/'))
 );
 
+gulp.task('build-twitter', () =>
+  gulp.src(appDev + 'twitter_json/**/*')
+    .pipe(gulp.dest(appProd + 'twitter_json/'))
+);
+
 gulp.task('clean', () =>
   gulp.src(appProd, { read: false })
     .pipe($.clean())
@@ -79,6 +84,8 @@ gulp.task('watch', ['build-html'], () => {
   gulp.watch(appDev + 'images/**/*', ['build-html']);
   gulp.watch(appDev + 'pdf/*.pdf', ['build-html']);
   gulp.watch(appDev + 'js/pdfobject.min.js', ['build-html']);
+  gulp.watch(appDev + 'twitter_json/**/*', ['build-html']);
+
 });
 
 gulp.task('server:start', () =>

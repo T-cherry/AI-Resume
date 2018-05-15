@@ -32,8 +32,8 @@ var ConversationResponse = (function () {
   }
 
   function actionFunctions(action) {
-    if(action.cmd === 'music_on') {
-      Panel.playMusic(action.arg);
+    if(action.cmd === 'no') {
+      document.getElementById('bg').src='images/bg.gif';
     } else if(action.cmd === 'wipers_on') {// turn on commands
       Animations.wipersOn('lo');
     } else if(action.cmd === 'lights_on') {
