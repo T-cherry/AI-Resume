@@ -1,0 +1,21 @@
+So this is it... we have managed to complete the project to the best of our ability and we have to admit that we are pretty proud with the result!
+
+Below I will show you screenshots of the final product, below those screenshots I will note down features that have been used/added.
+
+[caption id="attachment_70" align="alignnone" width="1682"]<img class="alignnone size-full wp-image-70" src="https://airesumeproject.files.wordpress.com/2018/05/screen-shot-2018-05-14-at-09-14-32.png" alt="Screen Shot 2018-05-14 at 09.14.32" width="1682" height="1176" /> This is the main screen, there is a toggle sound button in the top left hand corner, there is also a space where you can type your response or you can even use the microphone button to respond via speech.[/caption]
+
+[caption id="attachment_71" align="alignnone" width="1698"]<img class="alignnone size-full wp-image-71" src="https://airesumeproject.files.wordpress.com/2018/05/screen-shot-2018-05-14-at-09-15-02.png" alt="Screen Shot 2018-05-14 at 09.15.02" width="1698" height="1182" /> There are 2 buttons that you can see in the bottom right hand corner, one of these toggles the change of avatar and the other toggles the change of background. We have 3 different animated backgrounds as well as 3 different avatars.[/caption]
+
+[caption id="attachment_73" align="alignnone" width="1690"]<img class="alignnone size-full wp-image-73" src="https://airesumeproject.files.wordpress.com/2018/05/screen-shot-2018-05-14-at-09-15-25.png" alt="Screen Shot 2018-05-14 at 09.15.25" width="1690" height="1168" /> In addition to all the features mentioned, we have also inserted an actual photo of John when the avatar replies so that the Resume reader can see who he is actually speaking to.[/caption]
+
+[caption id="attachment_74" align="alignnone" width="1712"]<img class="alignnone size-full wp-image-74" src="https://airesumeproject.files.wordpress.com/2018/05/screen-shot-2018-05-14-at-09-15-38.png" alt="Screen Shot 2018-05-14 at 09.15.38" width="1712" height="1178" /> We have a 'What can I ask' button in the top left hand corner, once clicked on; it toggles this side bar to pop up. This is just to guide the resume reader to know what to ask about.[/caption]
+
+[caption id="attachment_75" align="alignnone" width="2560"]<img class="alignnone size-full wp-image-75" src="https://airesumeproject.files.wordpress.com/2018/05/screen-shot-2018-05-14-at-09-16-08.png" alt="Screen Shot 2018-05-14 at 09.16.08" width="2560" height="1600" /> The orange button with paper on it is there to open up the actual document form of the resume just in case the reader wishes to see the resume in written form and see a few extra details. This opens up as a PDF in another tab.[/caption]
+
+[caption id="attachment_76" align="alignnone" width="2560"]<img class="alignnone size-full wp-image-76" src="https://airesumeproject.files.wordpress.com/2018/05/screen-shot-2018-05-14-at-09-16-21.png" alt="Screen Shot 2018-05-14 at 09.16.21" width="2560" height="1600" /> The twitter button opens up this page in a new tab. This is a personality overview of John based purely off of his tweets. We has to generate a personality profile from his tweets & retweets and we placed it in a sunburst chart so that it is clear to read and see. It is also interactive so you can expand one block of personality traits at a time![/caption]
+
+So here we have it! Pretty cool eh?! We are extremely happy with the result of this product, there are areas in which we could have improved it such as having a whole description of John's personality rather than just in a sunburst chart, animating the avatar even more so he could represent behaviour that matches his speech etc. We only had just under a year to complete this project therefore we are very happy and proud of the turnout considering the time.
+
+I hope you have enjoyed reading these blogs and following our journey, it's been a rollercoaster with ups and downs but with perseverance anything is possible!
+
+ 
