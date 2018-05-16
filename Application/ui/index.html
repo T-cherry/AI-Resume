@@ -37,58 +37,20 @@
         var n=0;
    function changeImage(){
      if ( n == 0 ) {
-    document.getElementById('bg').src='images/bg.gif';
+    document.getElementById('avatar').src='images/bg.gif';
     n = 1;
   }
   else if ( n == 1 ) {
-    document.getElementById('bg').src='images/outdoorBG.gif';
+    document.getElementById('avatar').src='images/outdoorBG.gif';
     n = 2;
   }
   else {
-    document.getElementById('bg').src='images/BG3.gif';
+    document.getElementById('avatar').src='images/bg.gif';
     n = 0;
   }
     
    }
   </script>
-  
-        <script type="text/javascript">
-        var n=0;
-   function changeAvatar(){
-     if ( n == 0 ) {
-    document.getElementById('avatar').src='images/Avatar1.gif';
-    n = 1;
-  }
-  else if ( n == 1 ) {
-    document.getElementById('avatar').src='images/Avatar2.gif';
-    n = 2;
-  }
-  else {
-    document.getElementById('avatar').src='images/avatar-default.gif';
-    n = 0;
-  }
-    
-   }
-  </script>
-          <script type="text/javascript">
-        var n=0;
-   function changeAnimation(){
-     if ( n == 0 ) {
-    document.getElementById('avatar').src='images/Avatar-wave.gif';
-    n = 1;
-  }
-  else if ( n == 1 ) {
-    document.getElementById('avatar').src='images/Avatar-no.gif';
-    n = 2;
-  }
-  else {
-    document.getElementById('avatar').src='images/Avatar1.gif';
-    n = 0;
-  }
-    
-   }
-  </script>
-
 </head>
 
 <body>
@@ -98,9 +60,9 @@
         <button id="help" class="tooltip-dialog-btn" onclick="Sidebar.toggle()">What can I ask?</button>
        
             <div id="avatar-holder" class="parent">
-      <img src="images/outdoorBG.gif" id= "bg" width="1200" height="700"/>
+      <img src="images/outdoorBG.gif" id= "avatar" width="1200" height="700"/>
           <div class="inner">
-      <img src="images/avatar-default.gif" id="avatar"  width="1000" height="700" onclick="changeAnimation()"/>
+      <img src="images/avatar-default.gif"   width="1000" height="700"/>
     </div>
 </div>
         <div class="chatUi">
@@ -136,8 +98,7 @@
                     download at https://www.iconfinder.com/icons/834708/twitter_icon#size=128-->
             </a>
         </div>
-      </br>
-         <div id="Buttons">
+         <div id="twitter-analyse-icon">
             <button onclick="changeImage()">
                 <img class = "icon-img" src="images/faviconleft.ico" >
             </button>
@@ -148,22 +109,7 @@
     </div>
     </div>
 
- <script >
-var input = document.getElementById("user-input");
-input.addEventListener("keyup", function(event) {
-    event.preventDefault();
-    if (event.keyCode === 13) {
-      if(Math.floor(Math.random() * 3) ==0  )
-        document.getElementById('avatar').src='images/Avatar1.gif';
-      else if(Math.floor(Math.random() * 3)==1  )
-        document.getElementById('avatar').src='images/Avatar-node.gif';
-      else if(Math.floor(Math.random() * 3)==2 )
-        document.getElementById('avatar').src='images/Avatar-wave.gif';
-      else
-        document.getElementById('avatar').src='images/Avatar-talk.gif';
-    }
-});
-</script>
+
     <!-- build:js vendor.min.js -->
     <script src="js/libs/snap.svg.js"></script>
     <script src="./../node_modules/whatwg-fetch/fetch.js"></script>
@@ -174,7 +120,6 @@ input.addEventListener("keyup", function(event) {
     <script src="js/sidebar.js"></script>
     <script src="js/panel.js"></script>
     <script src="js/conversation.js"></script>
-    <script src="js/animations.js"></script>
     <script src="js/conversationResponse.js"></script>
     <script src="js/global.js"></script>
     <script src="js/ui_tests/tests.js"></script>
